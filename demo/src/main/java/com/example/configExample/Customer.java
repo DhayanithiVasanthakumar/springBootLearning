@@ -5,7 +5,7 @@ package com.example.configExample;
  * assume it is simple core java class
  * it have no annotations 
  */
-
+ 
 
 public class Customer {
 
