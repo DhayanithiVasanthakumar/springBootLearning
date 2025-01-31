@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class HelloController {
 
+	
 	@Value("${spring.datasource.url}")
 	private String dbUrl;
 	
