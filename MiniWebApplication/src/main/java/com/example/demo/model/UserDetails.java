@@ -1,14 +1,15 @@
 package com.example.demo.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
-@Entity
-public class UserDetails {
+//@Entity
+//@Table(name = )
+public class UserDetails {    
 
-	@Id
+//	@Id
 	private int id;
 	private String name; 
+	private String state;
 	
 	public int getId() {
 		return id;
