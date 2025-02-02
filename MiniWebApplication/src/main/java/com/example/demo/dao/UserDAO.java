@@ -13,7 +13,7 @@ import com.example.demo.model.UserDetails;
 @Repository
 public class UserDAO {
 
-	@Autowired
+	@Autowired 
 	private JdbcTemplate jdbcTemplate;
 
 	public void saveUser(UserDetails userDtls) {
