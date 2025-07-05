@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
 public class HelloController {
-
+ 
 	@GetMapping("/")
 	public String homePage(HttpServletRequest request) {
 		return "home"+request.getSession().getId();
